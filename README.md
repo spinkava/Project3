@@ -1,11 +1,7 @@
 Coursera Project 3
 ===================================================================================
 
-Review the data with the folowing code:
-
-	filePath <- "https://github.com/spinkava/Project3/blob/master/tidyMeans.csv"
-	tidyMeans <- read.csv(filePath, header = TRUE)
-	view(tidyMeans)
+You can review the data at the following link: https://github.com/spinkava/Project3/blob/master/tidyMeans.csv By saving it as a CSV file, github automatically formats the data into a readable form.
 
 In extracting the data, I only included variables that contained "mean" or "std". This did mean that several of the angle variables were not included (as the "Mean" is capitalized in those variables). However, these variables were ultimately angles and not means, so I felt that it was alright to exclude them. 
 
