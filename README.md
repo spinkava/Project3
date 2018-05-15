@@ -3,7 +3,7 @@ Coursera Project 3
 
 Review the data with the folowing code:
 
-	filePath <- "https://github.com/spinkava/Project3/tidyMeans.csv"
+	filePath <- "https://github.com/spinkava/Project3/blob/master/tidyMeans.csv"
 	tidyMeans <- read.csv(filePath, header = TRUE)
 	view(tidyMeans)
 
